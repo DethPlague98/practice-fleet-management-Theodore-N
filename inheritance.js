@@ -45,9 +45,8 @@ class Vehicle{
 
 //Task 2 
 function distance(vehicle,miles){
-    console.log(`You have just driven ${miles} miles.`)
-        vehicle.milage = vehicle.milage + miles;
-    return vehicle.milage;
+    vehicle.milage = vehicle.milage + miles;
+    return `You have just driven ${miles} miles.`;
 }
 
 function getDetails(vehicle){
